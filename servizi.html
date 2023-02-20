@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="../dist/output.css" rel="stylesheet" />
+		<link href="build.css" rel="stylesheet" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -15,12 +15,19 @@
 	<body>
 		<header class="relative">
 			<svg
-				class="hidden fill-fmgreen-100 w-full h-28 xl:block"
+				class="hidden w-full h-32 xl:block"
 				xmlns="http://www.w3.org/2000/svg"
 				preserveAspectRatio="none"
-				viewBox="0 0 1280 100">
+				viewBox="0 0 1280 128">
 				<path
-					d="m0 23 23.7 7.5C47.3 38 94.7 53 142 54.7c47.3 1.6 94.7-10 142.2-16.7 47.5-6.7 95.1-8.3 142.6-1.7C474.3 43 521.7 58 569 68.7c47.3 10.6 94.7 17 142 7.5s94.7-34.9 142.2-40.4c47.5-5.5 95.1 8.9 142.6 17.9 47.5 9 94.9 12.6 142.2 6.1 47.3-6.5 94.7-23.1 118.3-31.5L1280 20V0H0Z" />
+					fill="#cad99e"
+					d="m0 82 26.7-2.8c26.6-2.9 80-8.5 133.3-13.4 53.3-4.8 106.7-8.8 160-8 53.3.9 106.7 6.5 160 15.5S586.7 94.7 640 95c53.3.3 106.7-11.3 160-13.7C853.3 79 906.7 86 960 90c53.3 4 106.7 5 160-2.8 53.3-7.9 106.7-24.5 133.3-32.9L1280 46V0H0Z" />
+				<path
+					fill="#b8d096"
+					d="m0 43 26.7 7.3c26.6 7.4 80 22 133.3 21.2 53.3-.8 106.7-17.2 160-23.5 53.3-6.3 106.7-2.7 160 4.5s106.7 17.8 160 15.7C693.3 66 746.7 51 800 41.8c53.3-9.1 106.7-12.5 160-10.8 53.3 1.7 106.7 8.3 160 16 53.3 7.7 106.7 16.3 133.3 20.7L1280 72V0H0Z" />
+				<path
+					fill="#a6c78e"
+					d="m0 40 26.7 2.5c26.6 2.5 80 7.5 133.3 7 53.3-.5 106.7-6.5 160-11s106.7-7.5 160-8.8c53.3-1.4 106.7-1 160-2.7 53.3-1.7 106.7-5.3 160-4.8s106.7 5.1 160 6.1 106.7-1.6 160-1.3c53.3.3 106.7 3.7 133.3 5.3L1280 34V0H0Z" />
 			</svg>
 			<svg
 				class="fill-fmgreen-100 w-full h-28 xl:hidden"
@@ -37,7 +44,7 @@
 		</header>
 
 		<main class="flex flex-col items-center w-full gap-32">
-			<div class="flex gap-8 w-1/2 mt-16">
+			<div class="flex gap-8 w-2/3 mt-16">
 				<div class="flex flex-col items-center">
 					<h1 class="text-fmgreen-300 font-cookie text-6xl">
 						Servizio
@@ -60,7 +67,9 @@
 						me?
 					</p>
 
-					<h3 class="text-fmgreen-300">In cosa consiste la prima visita?</h3>
+					<h3 class="text-fmgreen-300">
+						In cosa consiste la prima visita?
+					</h3>
 					<p>
 						Ha una durata di circa un’ora e prevede un colloquio,
 						volto ad indagare il tuo stile di vita generale, oltre
@@ -88,7 +97,9 @@
 						Il piano alimentare sarà consegnato entro una settimana
 						lavorativa dalla prima visita.
 					</p>
-					<h3 class="text-fmgreen-300">Come prosegue il nostro percorso?</h3>
+					<h3 class="text-fmgreen-300">
+						Come prosegue il nostro percorso?
+					</h3>
 					<p>
 						Ci rincontreremo durante la visita di controllo, in cui
 						valutiamo insieme l’andamento del percorsop intrapreso.
@@ -99,8 +110,8 @@
 				</div>
 			</div>
 
-			<div class="flex gap-8 w-3/5">
-				<div class="flex flex-col justify-center items-center">
+			<div class="flex gap-8 w-2/3">
+				<div class="flex flex-col items-center">
 					<h1 class="text-fmgreen-300 font-cookie text-6xl">
 						Servizio
 					</h1>
@@ -150,7 +161,7 @@
 						insegnando ai giovani atleti ed alle loro famiglie a
 						gestire l’alimentazione in base agli impegni sportivi.
 					</p>
-					<p>
+					<p class="font-bold">
 						Se sei uno sportivo o gestisci una società sportiva, ti
 						aspetto in studio o in palestra per aiutarti a
 						comprendere quanto sia importante il campo
@@ -159,8 +170,8 @@
 				</div>
 			</div>
 
-			<div class="flex gap-8 w-3/5">
-				<div class="flex flex-col gap-2 justify-center items-center">
+			<div class="flex gap-8 w-2/3">
+				<div class="flex flex-col items-center">
 					<h1 class="text-fmgreen-300 font-cookie text-6xl">
 						Servizio
 					</h1>
@@ -175,33 +186,46 @@
 						Prenota
 					</button>
 				</div>
-				<div class="font-alegreya text-fmgreen-300">
-					Perché scegliere di intraprendere questo percorso con me? In
-					cosa consiste la prima visita? Ha una durata di circa un’ora
-					e prevede un colloquio, volto ad indagare il tuo stile di
-					vita generale, oltre che eventuali condizioni cliniche
-					presenti o pregresse. Per poter ottenere un quadro clinico
-					completo, ricordati di portare gli esami del sangue e delle
-					urine (possibilmente recenti), insieme all’elenco di farmaci
-					ed integratori assunti. Al termine di questo colloquio
-					seguono le misurazioni antropometriche (peso, circonferenze,
-					calcolo del BMI) e la valutazione della composizione
-					corporea, tramite la bilancia impedenziometrica BIA 101 BIVA
-					PRO. Infine definiamo l’obiettivo da raggiungere, in modo
-					che io possa poi elaborare un piano alimentare bilanciato e
-					personalizzato sulla base delle tue esigenze. Il piano
-					alimentare sarà consegnato entro una settimana lavorativa
-					dalla prima visita. Come prosegue il nostro percorso? Ci
-					rincontreremo durante la visita di controllo, in cui
-					valutiamo insieme l’andamento del percorso intrapreso. Ha
-					una durata di circa 30 minuti e prevede nuovamente la
-					rilevazione dei parametri antropometrici e la valutazione
-					della composizione corporea.
+				<div
+					class="font-alegreya text-fmgreen-300 text-justify prose max-w-none">
+					<p>
+						La gestione individuale del piano alimentare risulta
+						sicuramente più complessa se inserita nel contesto
+					</p>
+					<p>
+						famigliare, caratterizzato da orari, esigenze e gusti
+						diversi. Capendo a pieno la difficoltà, offro la
+						possibilità di intraprendere un percorso di educazione
+						alimentare esteso a tutta la famiglia, con la
+						conseguente elaborazione di uno schema alimentare
+						facilmente adattabile a tutti i suoi membri.
+					</p>
+					<p>
+						Durante il primo incontro indago lo stile di vita di
+						ogni componente della famiglia, in modo da comprendere
+						le rispettive esigenze ed elaborare poi un menù
+						settimanale, ricco di ricette facili, veloci e gustose.
+					</p>
+					Nel successivo incontro tratteremo due argomenti
+					fondamentali:
+					<p class="font-bold">Come comporre un pasto equilibrato</p>
+					<p>
+						Analizzeremo insieme il “piatto sano”, imparando ad
+						organizzare pasti equilibrati, anche con quello che si
+						ha in frigo o in dispensa.
+					</p>
+					<p class="font-bold">Cosa mettere nel carrello</p>
+					<p>
+						Capiremo insieme come fare correttamente la spesa,
+						imparando cosa non deve mai mancare nel carrello e
+						soprattutto come leggere un’etichetta in maniera
+						consapevole ed attenta.
+					</p>
 				</div>
 			</div>
 
-			<div class="flex gap-8 w-3/5">
-				<div class="flex flex-col gap-2 justify-center items-center">
+			<div class="flex gap-8 w-2/3">
+				<div class="flex flex-col items-center">
 					<h1 class="text-fmgreen-300 font-cookie text-6xl">
 						Servizio
 					</h1>
@@ -216,28 +240,45 @@
 						Prenota
 					</button>
 				</div>
-				<div class="font-alegreya text-fmgreen-300">
-					Perché scegliere di intraprendere questo percorso con me? In
-					cosa consiste la prima visita? Ha una durata di circa un’ora
-					e prevede un colloquio, volto ad indagare il tuo stile di
-					vita generale, oltre che eventuali condizioni cliniche
-					presenti o pregresse. Per poter ottenere un quadro clinico
-					completo, ricordati di portare gli esami del sangue e delle
-					urine (possibilmente recenti), insieme all’elenco di farmaci
-					ed integratori assunti. Al termine di questo colloquio
-					seguono le misurazioni antropometriche (peso, circonferenze,
-					calcolo del BMI) e la valutazione della composizione
-					corporea, tramite la bilancia impedenziometrica BIA 101 BIVA
-					PRO. Infine definiamo l’obiettivo da raggiungere, in modo
-					che io possa poi elaborare un piano alimentare bilanciato e
-					personalizzato sulla base delle tue esigenze. Il piano
-					alimentare sarà consegnato entro una settimana lavorativa
-					dalla prima visita. Come prosegue il nostro percorso? Ci
-					rincontreremo durante la visita di controllo, in cui
-					valutiamo insieme l’andamento del percorso intrapreso. Ha
-					una durata di circa 30 minuti e prevede nuovamente la
-					rilevazione dei parametri antropometrici e la valutazione
-					della composizione corporea.
+				<div
+					class="font-alegreya text-fmgreen-300 text-justify prose max-w-none">
+					<p>
+						Vi è mai capitato di farvi
+						<span class="font-bold"
+							>domande a tema alimentazione</span
+						>
+						e non sapere dove cercare fonti attendibili per avere
+						delle risposte?
+					</p>
+					<p>Questo è il posto giusto!</p>
+					<p>
+						Vi mostro qualche esempio di domande che ricevo di
+						frequente:
+					</p>
+					<p class="italic">
+						“Vorrei cimentarmi in una maratona: cosa sarebbe meglio
+						mangiare prima, durante e dopo l’allenamento o la gara?”
+					</p>
+					<p class="italic">
+						“Lavoro a turni e mangio spesso fuori casa: come posso
+						organizzare i pasti al meglio?”
+					</p>
+					<p class="italic">
+						“Mi piacerebbe diventare vegetariano: devo integrare
+						qualcosa?”
+					</p>
+					<p class="italic">
+						“Ho i valori ematici di colesterolo superiori al range:
+						devo eliminare le uova?”
+					</p>
+					<p>
+						Con questo servizio potrai chiarire tutti i tuoi dubbi
+						nel corso di una chiacchierata di circa 30 minuti.
+					</p>
+					<p class="font-bold">
+						Non riceverai un piano alimentare, ma risposte e
+						consigli basati su evidenze scientifiche.
+					</p>
 				</div>
 			</div>
 		</main>
@@ -262,9 +303,16 @@
 				class="hidden fill-fmgreen-100 w-full h-40 xl:block"
 				xmlns="http://www.w3.org/2000/svg"
 				preserveAspectRatio="none"
-				viewBox="0 0 1280 200">
+				viewBox="0 0 1280 128">
 				<path
-					d="M0 91L35.5 88.3C71 85.7 142 80.3 213.2 89C284.3 97.7 355.7 120.3 426.8 118.5C498 116.7 569 90.3 640 87.5C711 84.7 782 105.3 853.2 108C924.3 110.7 995.7 95.3 1066.8 94C1138 92.7 1209 105.3 1244.5 111.7L1280 118L1280 201L1244.5 201C1209 201 1138 201 1066.8 201C995.7 201 924.3 201 853.2 201C782 201 711 201 640 201C569 201 498 201 426.8 201C355.7 201 284.3 201 213.2 201C142 201 71 201 35.5 201L0 201Z" />
+					fill="#fccacb"
+					d="m0 35 26.7-.3c26.6-.4 80-1 133.3 1.5 53.3 2.5 106.7 8.1 160 5.5 53.3-2.7 106.7-13.7 160-12 53.3 1.6 106.7 16 160 25.3s106.7 13.7 160 7c53.3-6.7 106.7-24.3 160-23.8s106.7 19.1 160 19.6 106.7-17.1 133.3-26L1280 23v106H0Z" />
+				<path
+					fill="#ffafaf"
+					d="m0 53 26.7-2.5c26.6-2.5 80-7.5 133.3-5 53.3 2.5 106.7 12.5 160 20S426.7 78 480 79.8c53.3 1.9 106.7.5 160-4.8s106.7-14.7 160-14c53.3.7 106.7 11.3 160 18.5 53.3 7.2 106.7 10.8 160 8.8s106.7-9.6 133.3-13.5L1280 71v58H0Z" />
+				<path
+					fill="#ff9393"
+					d="m0 108 26.7-3.7c26.6-3.6 80-11 133.3-13.8 53.3-2.8 106.7-1.2 160 1.2 53.3 2.3 106.7 5.3 160 1.5 53.3-3.9 106.7-14.5 160-11.5s106.7 19.6 160 22.5c53.3 2.8 106.7-8.2 160-13.7s106.7-5.5 160-.8c53.3 4.6 106.7 14 133.3 18.6l26.7 4.7v16H0Z" />
 			</svg>
 			<svg
 				class="fill-fmgreen-100 w-full h-40 xl:hidden"

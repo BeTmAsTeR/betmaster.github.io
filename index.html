@@ -7,7 +7,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&family=Alegreya:wght@400;700&family=Cookie&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,800;1,800&family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Cookie&display=swap"
 			rel="stylesheet" />
 		<title>Dottoressa Francesca Mariotti</title>
 	</head>
@@ -15,12 +15,12 @@
 	<body>
 		<header class="relative">
 			<svg
-				class="hidden fill-fmgreen-100 w-full h-28 xl:block"
+				class="hidden fill-fmgreen-100 w-full h-32 xl:block"
 				xmlns="http://www.w3.org/2000/svg"
 				preserveAspectRatio="none"
-				viewBox="0 0 1280 100">
+				viewBox="0 0 1280 128">
 				<path
-					d="m0 23 23.7 7.5C47.3 38 94.7 53 142 54.7c47.3 1.6 94.7-10 142.2-16.7 47.5-6.7 95.1-8.3 142.6-1.7C474.3 43 521.7 58 569 68.7c47.3 10.6 94.7 17 142 7.5s94.7-34.9 142.2-40.4c47.5-5.5 95.1 8.9 142.6 17.9 47.5 9 94.9 12.6 142.2 6.1 47.3-6.5 94.7-23.1 118.3-31.5L1280 20V0H0Z" />
+					d="m1365.8 111.699-56.95-15.654c-56.85-15.712-170.81-43.723-284.57-40.803-113.767 2.92-227.776 60.578-341.529 57.254-113.754-3.325-227.625-51.672-341.373-58.12C227.629 47.93 113.815 78.95 56.908 94.46L0 109.969.2-2.43l56.88.102c56.879.1 170.638.303 284.398.506l341.277.607 341.275.607 284.4.506 56.88.1.49 111.701Z" />
 			</svg>
 			<svg
 				class="fill-fmgreen-100 w-full h-28 xl:hidden"
@@ -43,7 +43,7 @@
 				</h2>
 			</section>
 		</header>
-		<main class="mx-auto">
+		<main class="mx-auto md:w-full xl:w-[80rem]">
 			<div class="flex justify-center items-center mt-10">
 				<!-- hero -->
 				<img
@@ -169,31 +169,61 @@
 				</h2>
 				<div class="w-full flex justify-center items-center my-32">
 					<div
-						class="flex justify-evenly h-64 w-5/6 p-3 gap-2 bg-fmgreen-100 rounded-lg">
+						class="flex justify-evenly h-80 w-5/6 p-3 gap-2 bg-fmgreen-100 rounded-lg text-fmgreen-300">
 						<div
-							class="flex flex-col bg-white w-1/4 items-center justify-evenly rounded-lg">
-							<h2>Centro FisioSport</h2>
+							class="flex flex-col bg-white w-1/4 items-center justify-around rounded-lg">
+							<h2 class="text-xl font-bold font-alegreya-sans">
+								Centro FisioSport
+							</h2>
+							<p class="font-medium font-alegreya">
+								Torino - Via Mancini n° 8
+							</p>
+							<p class="font-medium font-alegreya">
+								Poirino - Via Amaretti n° 23
+							</p>
+							<p class="font-medium font-alegreya">
+								Carmagnola - Via Francesco <br />
+								di Sales n° 54
+							</p>
 							<img
 								class="w-24 h-24"
 								src="img/fisiosport.png"
-								alt="" />
+								alt="Logo FisioSport" />
+						</div>
+						<div
+							class="flex flex-col bg-white w-1/4 items-center justify-around rounded-lg">
+							<h2 class="text-xl font-bold font-alegreya-sans">
+								Studio Medico D33
+							</h2>
+							<p class="font-medium font-alegreya">
+								Lucca - Via dei Salicchi n° 978
+							</p>
+							<img
+								class="w-24 h-24"
+								src="img/d33.svg"
+								alt="Logo D33" />
 						</div>
 						<div
 							class="flex flex-col bg-white w-1/4 items-center justify-evenly rounded-lg">
-							<h2>Studio Medico D33</h2>
-							<img class="w-24 h-24" src="img/d33.svg" alt="" />
-						</div>
-						<div
-							class="flex flex-col bg-white w-1/4 items-center justify-evenly rounded-lg">
-							<h2>Mama Chat</h2>
+							<h2 class="font-bold text-xl font-alegreya-sans">
+								Mama Chat
+							</h2>
+							<p class="font-medium font-alegreya">
+								Servizi online
+							</p>
 							<img
 								class="w-24 h-24"
 								src="img/mamachat.svg"
-								alt="" />
+								alt="Icona Mama Chat" />
 						</div>
 						<div
 							class="flex flex-col bg-white w-1/4 items-center justify-evenly rounded-lg">
-							<h2>Cellulare Whatsapp</h2>
+							<h2 class="font-bold text-xl font-alegreya-sans">
+								Cellulare Whatsapp
+							</h2>
+							<p class="font-medium font-alegreya">
+								329 77218989
+							</p>
 							<div class="flex">
 								<img
 									class="w-24 h-24"
@@ -204,7 +234,12 @@
 									src="img/mail.svg"
 									alt="Icona email" />
 							</div>
-							<h2>Indirizzo email</h2>
+							<h2 class="font-bold text-xl font-alegreya-sans">
+								Indirizzo email
+							</h2>
+							<p class="text-xl font-alegreya">
+								f.a.mariotti@gmail.com
+							</p>
 						</div>
 					</div>
 				</div>

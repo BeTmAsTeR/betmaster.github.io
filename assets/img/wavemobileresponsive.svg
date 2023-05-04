@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 639.518 500" preserveAspectRatio="none" width="639.518" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear_1988_224" x1="146.083" y1="440.751" x2="180.118" y2="32.3103" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.77041, 0, 0, 1.890191, 0.999239, -18.48522)">
+      <stop offset="0.2798" stop-color="#CAD99E" stop-opacity="0"/>
+      <stop offset="0.4678" stop-color="#CAD99E" stop-opacity="0.617617"/>
+      <stop offset="0.6366" stop-color="#CAD99E"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_1988_224" x1="180.192" y1="110.394" x2="180" y2="-138.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.772532, 0, 0, 1.656809, 0.482068, 16.568084)">
+      <stop offset="0.3365" stop-color="#A6C78E"/>
+      <stop offset="1" stop-color="#A6C78E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M 639.518 500 L 612.227 445.569 C 585.699 391.14 533.06 340.341 479.802 351.115 C 426.545 361.889 372.671 434.239 319.451 423.262 C 266.229 412.286 233.898 359.667 180.695 337.816 C 127.493 315.964 53.42 324.874 26.71 379.203 L 0 433.531 L 0 42.346 L 27.271 42.05 C 53.891 42.099 107.129 42.202 160.369 42.301 C 213.607 42.403 266.845 42.503 320.085 42.606 C 373.323 42.707 426.562 42.807 479.8 42.908 C 533.04 43.01 586.278 43.111 612.898 43.162 L 639.518 43.446 L 639.518 500 Z" fill="url(#paint0_linear_1988_224)" style=""/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M 639.518 200 L 612.579 176.273 C 586.019 152.546 532.898 105.091 479.68 109.739 C 426.461 114.388 373.142 171.138 319.941 166.314 C 266.74 161.488 213.657 95.086 160.465 85.524 C 107.273 75.963 53.973 123.242 27.321 146.879 L 0 170.655 L 0 0 L 27.601 0.045 C 54.207 0.088 107.416 0.177 160.626 0.265 C 213.836 0.355 267.047 -0.088 320.257 0 C 373.466 0.09 426.678 -0.09 479.887 0 C 533.097 0.088 587.778 -0.044 614.382 0 L 639.518 0 L 639.518 200 Z" fill="url(#paint1_linear_1988_224)" style=""/>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-308.995 179.873 1023.65 140.255" preserveAspectRatio="none" width="1023.65" height="140.255" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paint0_linear_1772_381" x1="682.522" y1="129.917" x2="682.805" y2="-141.9" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.749487, 0, 0, 1.217979, -308.9953, 182.941513)">
+      <stop offset="0.3365" stop-color="#A6C78E"/>
+      <stop offset="1" stop-color="#A6C78E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M 714.655 318.989 L 671.972 299.921 C 629.363 280.784 543.952 246.667 458.69 250.224 C 373.423 253.78 287.975 324.008 202.718 319.96 C 117.461 315.91 32.116 257.023 -53.136 249.17 C -138.39 241.32 -223.692 279.1 -266.344 297.991 L -308.995 316.881 L -308.845 179.982 C -308.845 179.982 -138.323 179.736 -53.062 179.982 C 32.199 180.229 116.118 179.735 201.379 179.982 C 286.641 180.229 372.065 179.736 457.324 179.982 C 542.585 180.23 714.655 179.982 714.655 179.982 L 714.655 318.989 Z" fill="url(#paint0_linear_1772_381)" style="" transform="matrix(-1, 0, 0, -1, 405.660065, 500.001099)"/>
+</svg>

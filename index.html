@@ -84,7 +84,7 @@
 				</div>
 				<!-- Foto e onda verde -->
 				<div
-                    class="bg-wave-mipresento-mobile md:bg-wave-mipresento bg-no-repeat bg-full w-full h-[75vh] md:w-[45%] flex flex-col justify-around items-center">
+                    class="bg-wave-mipresento-mobile md:bg-wave-mipresento bg-no-repeat bg-full h-[75vh] md:h-auto w-full md:w-[45%] flex flex-col justify-evenly items-center">
 					<button
 						class="md:hidden button bg-fmpink-200 text-white uppercase font-bold my-10 py-1 px-4 rounded-2xl"
 						type="submit">
@@ -94,10 +94,10 @@
 						class="w-80 h-80 rounded-full"
 						src="assets/img/fotofrancescasquared.png"
 						alt="Foto Francesca Mariotti" />
-                    <div>
-                        <h1 class="text-5xl font-cookie text-fmgreen-300">Il mio supporto</h1>
-                        <h2 class="uppercase text-2xl font-alegreya-sans text-white">servizi</h2>
-                    </div>
+					<div class="md:hidden">
+						<h1 class="text-5xl font-cookie text-fmgreen-300">Il mio supporto</h1>
+						<h2 class="uppercase text-2xl font-alegreya-sans text-white">servizi</h2>
+					</div>
 				</div>
 			</div>
 			<div class="w-full justify-center items-center">
@@ -107,8 +107,7 @@
 					<!-- prima visita -->
 					<div class="flex md:flex-col justify-center items-center">
 						<img class="w-40 h-40" src="assets/img/visita.svg" alt="" />
-						<div
-							class="services">
+						<div class="services">
 							<p class="ml-14 md:ml-0 text-lg uppercase text-fmgreen-300 font-alegreya-sans">
 								prima visita
 							</p>
@@ -117,8 +116,7 @@
 					<!-- società sportive -->
 					<div class="flex md:flex-col justify-center items-center">
 						<img class="w-40 h-40" src="assets/img/sport.svg" alt="" />
-						<div
-							class="services">
+						<div class="services">
 							<p class="ml-14 md:ml-0 text-lg uppercase text-fmgreen-300 font-alegreya-sans">
 								società sportive
 							</p>
@@ -127,8 +125,7 @@
 					<!-- famiglia -->
 					<div class="flex md:flex-col justify-center items-center">
 						<img class="w-40 h-40" src="assets/img/famiglia.svg" alt="" />
-						<div
-							class="services">
+						<div class="services">
 							<p class="ml-14 md:ml-0 text-lg uppercase text-fmgreen-300 font-alegreya-sans">
 								famiglia
 							</p>
@@ -137,8 +134,7 @@
 					<!-- consulenza online -->
 					<div class="flex md:flex-col justify-center items-center">
 						<img class="w-40 h-40" src="assets/img/consulenza.svg" alt="" />
-						<div
-							class="services">
+						<div class="services">
 							<p class="ml-14 md:ml-0 text-lg uppercase text-fmgreen-300 font-alegreya-sans">
 								consulenza online
 							</p>
@@ -214,13 +210,23 @@
 
 						<div
 							class="hidden md:flex flex-col p-4 bg-white w-1/4 items-center justify-between md:justify-start rounded-lg">
-							<h2 class="font-bold text-xl font-alegreya-sans text-fmgreen-100">Cellulare Whatsapp</h2>
+							<h2 class="font-bold text-xl font-alegreya-sans text-fmgreen-100">
+								Cellulare Whatsapp
+							</h2>
 							<p class="font-alegreya text-xl">329 77218989</p>
 							<div class="flex flex-grow gap-2 my-3">
-								<img class="aspect-square min-w-0" src="assets/img/wa.svg" alt="Icona Whatsapp" />
-								<img class="aspect-square min-w-0" src="assets/img/mail.svg" alt="Icona email" />
+								<img
+									class="aspect-square min-w-0"
+									src="assets/img/wa.svg"
+									alt="Icona Whatsapp" />
+								<img
+									class="aspect-square min-w-0"
+									src="assets/img/mail.svg"
+									alt="Icona email" />
 							</div>
-							<h2 class="font-bold text-xl font-alegreya-sans text-fmgreen-100">Indirizzo email</h2>
+							<h2 class="font-bold text-xl font-alegreya-sans text-fmgreen-100">
+								Indirizzo email
+							</h2>
 							<p class="text-xl font-alegreya">f.a.mariotti@gmail.com</p>
 						</div>
 					</div>

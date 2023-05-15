@@ -15,7 +15,7 @@
 	<body>
 		<header class="relative">
 			<svg
-				class="hidden w-full h-32 xl:block"
+				class="hidden h-32 w-full xl:block"
 				xmlns="http://www.w3.org/2000/svg"
 				preserveAspectRatio="none"
 				viewBox="0 0 1280 128">
@@ -30,7 +30,7 @@
 					d="m0 40 26.7 2.5c26.6 2.5 80 7.5 133.3 7 53.3-.5 106.7-6.5 160-11s106.7-7.5 160-8.8c53.3-1.4 106.7-1 160-2.7 53.3-1.7 106.7-5.3 160-4.8s106.7 5.1 160 6.1 106.7-1.6 160-1.3c53.3.3 106.7 3.7 133.3 5.3L1280 34V0H0Z" />
 			</svg>
 			<svg
-				class="fill-fmgreen-100 w-full h-28 xl:hidden"
+				class="h-28 w-full fill-fmgreen-100 xl:hidden"
 				xmlns="http://www.w3.org/2000/svg"
 				preserveAspectRatio="none"
 				viewBox="0 0 769 100">
@@ -38,269 +38,190 @@
 					d="m0 68 18.3-4c18.4-4 55-12 91.7-18.2 36.7-6.1 73.3-10.5 110-8.3 36.7 2.2 73.3 10.8 109.8 17.5 36.5 6.7 72.9 11.3 109.4 6.5 36.5-4.8 73.1-19.2 109.8-21.8 36.7-2.7 73.3 6.3 110 13 36.7 6.6 73.3 11 91.7 13.1L769 68V0H0Z" />
 			</svg>
 			<img
-				class="h-16 w-16 absolute top-3 left-0 right-0 mx-auto"
+				class="absolute top-3 left-0 right-0 mx-auto h-16 w-16"
 				src="assets/img/logo.svg"
 				alt="Logo Francesca Mariotti Nutrizionista" />
 		</header>
 
-		<main class="flex flex-col items-center w-full gap-32">
-			<div class="flex gap-8 w-2/3 mt-16">
+		<main class="flex w-full flex-col items-center gap-32">
+			<div class="mt-16 flex w-2/3 gap-8">
 				<div class="flex flex-col items-center">
-					<h1 class="text-fmgreen-300 font-cookie text-6xl">
-						Servizio
-					</h1>
-					<h2
-						class="uppercase text-fmpink-100 font-alegreya-sans text-2xl font-bold">
-						prima visita
-					</h2>
+					<h1 class="font-cookie text-6xl text-fmgreen-300">Servizio</h1>
+					<h2 class="font-alegreya-sans text-2xl font-bold uppercase text-fmpink-100">prima visita</h2>
 					<img class="h-44 w-44" src="assets/img/visita.svg" alt="" />
 					<button
-						class="button bg-fmgreen-200 text-fmgreen-300 uppercase font-bold mt-5 py-1 px-4 rounded-2xl"
+						class="button mt-5 rounded-2xl bg-fmgreen-200 py-1 px-4 font-bold uppercase text-fmgreen-300"
 						type="submit">
 						Prenota
 					</button>
 				</div>
-				<div
-					class="font-alegreya text-fmgreen-300 text-justify prose max-w-none">
-					<p>
-						Perché scegliere di intraprendere questo percorso con
-						me?
-					</p>
+				<div class="prose max-w-none text-justify font-alegreya text-fmgreen-300">
+					<p>Perché scegliere di intraprendere questo percorso con me?</p>
 
-					<h3 class="text-fmgreen-300">
-						In cosa consiste la prima visita?
-					</h3>
+					<h3 class="text-fmgreen-300">In cosa consiste la prima visita?</h3>
 					<p>
-						Ha una durata di circa un’ora e prevede un colloquio,
-						volto ad indagare il tuo stile di vita generale, oltre
-						che eventuali condizioni cliniche presenti o pregresse.
+						Ha una durata di circa un’ora e prevede un colloquio, volto ad indagare il tuo stile di vita
+						generale, oltre che eventuali condizioni cliniche presenti o pregresse.
 					</p>
 
 					<p class="italic">
-						Per poter ottenere un quadro clinico completo, ricordati
-						di portare gli esami del sangue e delle urine
-						(possibilmente recenti), insieme all’elenco di farmaci
-						ed integratori assunti.
+						Per poter ottenere un quadro clinico completo, ricordati di portare gli esami del sangue e delle
+						urine (possibilmente recenti), insieme all’elenco di farmaci ed integratori assunti.
 					</p>
 
 					<p>
-						Al termine di questo colloquio seguono le misurazioni
-						antropometriche (peso, circonferenze, calcolo del BMI) e
-						la valutazione della composizione corporea, tramite la
-						bilancia impedenziometrica BIA 101 BIVA PRO. Infine
-						definiamo l’obiettivo da raggiungere, in modo che io
-						possa poi elaborare un piano alimentare bilanciato e
-						personalizzato sulla base delle tue esigenze.
+						Al termine di questo colloquio seguono le misurazioni antropometriche (peso, circonferenze,
+						calcolo del BMI) e la valutazione della composizione corporea, tramite la bilancia
+						impedenziometrica BIA 101 BIVA PRO. Infine definiamo l’obiettivo da raggiungere, in modo che io
+						possa poi elaborare un piano alimentare bilanciato e personalizzato sulla base delle tue
+						esigenze.
 					</p>
 
+					<p>Il piano alimentare sarà consegnato entro una settimana lavorativa dalla prima visita.</p>
+					<h3 class="text-fmgreen-300">Come prosegue il nostro percorso?</h3>
 					<p>
-						Il piano alimentare sarà consegnato entro una settimana
-						lavorativa dalla prima visita.
-					</p>
-					<h3 class="text-fmgreen-300">
-						Come prosegue il nostro percorso?
-					</h3>
-					<p>
-						Ci rincontreremo durante la visita di controllo, in cui
-						valutiamo insieme l’andamento del percorsop intrapreso.
-						Ha una durata di circa 30 minuti e prevede nuovamente la
-						rilevazione dei parametri antropometrici e la
-						valutazione della composizione corporea.
+						Ci rincontreremo durante la visita di controllo, in cui valutiamo insieme l’andamento del
+						percorsop intrapreso. Ha una durata di circa 30 minuti e prevede nuovamente la rilevazione dei
+						parametri antropometrici e la valutazione della composizione corporea.
 					</p>
 				</div>
 			</div>
 
-			<div class="flex gap-8 w-2/3">
+			<div class="flex w-2/3 gap-8">
 				<div class="flex flex-col items-center">
-					<h1 class="text-fmgreen-300 font-cookie text-6xl">
-						Servizio
-					</h1>
-					<h2
-						class="uppercase text-fmgreen-100 font-alegreya-sans text-2xl font-bold">
-						società sportive
-					</h2>
+					<h1 class="font-cookie text-6xl text-fmgreen-300">Servizio</h1>
+					<h2 class="font-alegreya-sans text-2xl font-bold uppercase text-fmgreen-100">società sportive</h2>
 					<img class="h-44 w-44" src="assets/img/sport.svg" alt="" />
 					<button
-						class="button bg-fmpink-200 text-white uppercase font-bold mt-5 py-1 px-4 rounded-2xl"
+						class="button mt-5 rounded-2xl bg-fmpink-200 py-1 px-4 font-bold uppercase text-white"
 						type="submit">
 						Prenota
 					</button>
 				</div>
-				<div
-					class="font-alegreya text-fmgreen-300 text-justify prose max-w-none">
+				<div class="prose max-w-none text-justify font-alegreya text-fmgreen-300">
 					<img
-						class="ml-10 rounded-lg float-right"
+						class="float-right ml-10 rounded-lg"
 						src="assets/img/francescapallavolo.png"
 						alt="Francesca Mariotti che gioca a pallavolo" />
 					<p>
-						Coltivo da sempre una profonda passione per gli sport di
-						squadra, essendo stata una giocatrice di pallavolo
-						professionista ed un’allenatrice del settore giovanile.
-						Questo sport mi ha insegnato la determinazione nel
-						raggiungere gli obiettivi prefissati, ma soprattutto il
-						lavoro di squadra, che applico anche nello svolgimento
-						della mia professione.
+						Coltivo da sempre una profonda passione per gli sport di squadra, essendo stata una giocatrice
+						di pallavolo professionista ed un’allenatrice del settore giovanile. Questo sport mi ha
+						insegnato la determinazione nel raggiungere gli obiettivi prefissati, ma soprattutto il lavoro
+						di squadra, che applico anche nello svolgimento della mia professione.
 					</p>
 					<p>
-						Come nutrizionista, ho scelto quindi di avvicinarmi
-						all’ambiente sportivo grazie al corso di perfezionamento
-						SANIS (Società di Nutrizione ed Integrazione Sportiva).
-						Qui ho appreso come una corretta alimentazione sia
-						fondamentale per ottimizzare la performance sportiva,
-						per velocizzare il recupero in seguito ad uno sforzo e
-						per prevenire l’insorgenza di infortuni.
+						Come nutrizionista, ho scelto quindi di avvicinarmi all’ambiente sportivo grazie al corso di
+						perfezionamento SANIS (Società di Nutrizione ed Integrazione Sportiva). Qui ho appreso come una
+						corretta alimentazione sia fondamentale per ottimizzare la performance sportiva, per velocizzare
+						il recupero in seguito ad uno sforzo e per prevenire l’insorgenza di infortuni.
 					</p>
 					<p>
-						Collaboro con diverse società sportive per la
-						valutazione nutrizionale e la redazione di piani
-						alimentari personalizzati, aiutando gli atleti e lo
-						staff tecnico nella gestione di allenamenti e gare.
-						Pensando poi alla palestra come un luogo in cui bambini
-						ed adolescenti crescono ed imparano, organizzo incontri
-						di educazione alimentare per il settore giovanile,
-						insegnando ai giovani atleti ed alle loro famiglie a
-						gestire l’alimentazione in base agli impegni sportivi.
+						Collaboro con diverse società sportive per la valutazione nutrizionale e la redazione di piani
+						alimentari personalizzati, aiutando gli atleti e lo staff tecnico nella gestione di allenamenti
+						e gare. Pensando poi alla palestra come un luogo in cui bambini ed adolescenti crescono ed
+						imparano, organizzo incontri di educazione alimentare per il settore giovanile, insegnando ai
+						giovani atleti ed alle loro famiglie a gestire l’alimentazione in base agli impegni sportivi.
 					</p>
 					<p class="font-bold">
-						Se sei uno sportivo o gestisci una società sportiva, ti
-						aspetto in studio o in palestra per aiutarti a
-						comprendere quanto sia importante il campo
-						dell’alimentazione.
+						Se sei uno sportivo o gestisci una società sportiva, ti aspetto in studio o in palestra per
+						aiutarti a comprendere quanto sia importante il campo dell’alimentazione.
 					</p>
 				</div>
 			</div>
 
-			<div class="flex gap-8 w-2/3">
+			<div class="flex w-2/3 gap-8">
 				<div class="flex flex-col items-center">
-					<h1 class="text-fmgreen-300 font-cookie text-6xl">
-						Servizio
-					</h1>
-					<h2
-						class="uppercase text-fmpink-100 font-alegreya-sans text-2xl font-bold">
-						prima visita
-					</h2>
+					<h1 class="font-cookie text-6xl text-fmgreen-300">Servizio</h1>
+					<h2 class="font-alegreya-sans text-2xl font-bold uppercase text-fmpink-100">prima visita</h2>
 					<img class="h-44 w-44" src="assets/img/famiglia.svg" alt="" />
 					<button
-						class="button bg-fmgreen-200 text-fmgreen-300 uppercase font-bold mt-5 py-1 px-4 rounded-2xl"
+						class="button mt-5 rounded-2xl bg-fmgreen-200 py-1 px-4 font-bold uppercase text-fmgreen-300"
 						type="submit">
 						Prenota
 					</button>
 				</div>
-				<div
-					class="font-alegreya text-fmgreen-300 text-justify prose max-w-none">
+				<div class="prose max-w-none text-justify font-alegreya text-fmgreen-300">
 					<p>
-						La gestione individuale del piano alimentare risulta
-						sicuramente più complessa se inserita nel contesto
+						La gestione individuale del piano alimentare risulta sicuramente più complessa se inserita nel
+						contesto
 					</p>
 					<p>
-						famigliare, caratterizzato da orari, esigenze e gusti
-						diversi. Capendo a pieno la difficoltà, offro la
-						possibilità di intraprendere un percorso di educazione
-						alimentare esteso a tutta la famiglia, con la
-						conseguente elaborazione di uno schema alimentare
-						facilmente adattabile a tutti i suoi membri.
+						famigliare, caratterizzato da orari, esigenze e gusti diversi. Capendo a pieno la difficoltà,
+						offro la possibilità di intraprendere un percorso di educazione alimentare esteso a tutta la
+						famiglia, con la conseguente elaborazione di uno schema alimentare facilmente adattabile a tutti
+						i suoi membri.
 					</p>
 					<p>
-						Durante il primo incontro indago lo stile di vita di
-						ogni componente della famiglia, in modo da comprendere
-						le rispettive esigenze ed elaborare poi un menù
-						settimanale, ricco di ricette facili, veloci e gustose.
+						Durante il primo incontro indago lo stile di vita di ogni componente della famiglia, in modo da
+						comprendere le rispettive esigenze ed elaborare poi un menù settimanale, ricco di ricette
+						facili, veloci e gustose.
 					</p>
-					Nel successivo incontro tratteremo due argomenti
-					fondamentali:
+					Nel successivo incontro tratteremo due argomenti fondamentali:
 					<p class="font-bold">Come comporre un pasto equilibrato</p>
 					<p>
-						Analizzeremo insieme il “piatto sano”, imparando ad
-						organizzare pasti equilibrati, anche con quello che si
-						ha in frigo o in dispensa.
+						Analizzeremo insieme il “piatto sano”, imparando ad organizzare pasti equilibrati, anche con
+						quello che si ha in frigo o in dispensa.
 					</p>
 					<p class="font-bold">Cosa mettere nel carrello</p>
 					<p>
-						Capiremo insieme come fare correttamente la spesa,
-						imparando cosa non deve mai mancare nel carrello e
-						soprattutto come leggere un’etichetta in maniera
-						consapevole ed attenta.
+						Capiremo insieme come fare correttamente la spesa, imparando cosa non deve mai mancare nel
+						carrello e soprattutto come leggere un’etichetta in maniera consapevole ed attenta.
 					</p>
 				</div>
 			</div>
 
-			<div class="flex gap-8 w-2/3">
+			<div class="flex w-2/3 gap-8">
 				<div class="flex flex-col items-center">
-					<h1 class="text-fmgreen-300 font-cookie text-6xl">
-						Servizio
-					</h1>
-					<h2
-						class="uppercase text-fmpink-100 font-alegreya-sans text-2xl font-bold">
-						prima visita
-					</h2>
+					<h1 class="font-cookie text-6xl text-fmgreen-300">Servizio</h1>
+					<h2 class="font-alegreya-sans text-2xl font-bold uppercase text-fmpink-100">prima visita</h2>
 					<img class="h-44 w-44" src="assets/img/consulenza.svg" alt="" />
 					<button
-						class="button bg-fmpink-200 text-white uppercase font-bold mt-5 py-1 px-4 rounded-2xl"
+						class="button mt-5 rounded-2xl bg-fmpink-200 py-1 px-4 font-bold uppercase text-white"
 						type="submit">
 						Prenota
 					</button>
 				</div>
-				<div
-					class="font-alegreya text-fmgreen-300 text-justify prose max-w-none">
+				<div class="prose max-w-none text-justify font-alegreya text-fmgreen-300">
 					<p>
 						Vi è mai capitato di farvi
-						<span class="font-bold"
-							>domande a tema alimentazione</span
-						>
-						e non sapere dove cercare fonti attendibili per avere
-						delle risposte?
+						<span class="font-bold">domande a tema alimentazione</span>
+						e non sapere dove cercare fonti attendibili per avere delle risposte?
 					</p>
 					<p>Questo è il posto giusto!</p>
-					<p>
-						Vi mostro qualche esempio di domande che ricevo di
-						frequente:
+					<p>Vi mostro qualche esempio di domande che ricevo di frequente:</p>
+					<p class="italic">
+						“Vorrei cimentarmi in una maratona: cosa sarebbe meglio mangiare prima, durante e dopo
+						l’allenamento o la gara?”
 					</p>
 					<p class="italic">
-						“Vorrei cimentarmi in una maratona: cosa sarebbe meglio
-						mangiare prima, durante e dopo l’allenamento o la gara?”
+						“Lavoro a turni e mangio spesso fuori casa: come posso organizzare i pasti al meglio?”
 					</p>
+					<p class="italic">“Mi piacerebbe diventare vegetariano: devo integrare qualcosa?”</p>
 					<p class="italic">
-						“Lavoro a turni e mangio spesso fuori casa: come posso
-						organizzare i pasti al meglio?”
-					</p>
-					<p class="italic">
-						“Mi piacerebbe diventare vegetariano: devo integrare
-						qualcosa?”
-					</p>
-					<p class="italic">
-						“Ho i valori ematici di colesterolo superiori al range:
-						devo eliminare le uova?”
+						“Ho i valori ematici di colesterolo superiori al range: devo eliminare le uova?”
 					</p>
 					<p>
-						Con questo servizio potrai chiarire tutti i tuoi dubbi
-						nel corso di una chiacchierata di circa 30 minuti.
+						Con questo servizio potrai chiarire tutti i tuoi dubbi nel corso di una chiacchierata di circa
+						30 minuti.
 					</p>
 					<p class="font-bold">
-						Non riceverai un piano alimentare, ma risposte e
-						consigli basati su evidenze scientifiche.
+						Non riceverai un piano alimentare, ma risposte e consigli basati su evidenze scientifiche.
 					</p>
 				</div>
 			</div>
 		</main>
 		<footer class="relative">
-			<div class="absolute w-full h-20 top-20">
+			<div class="absolute top-20 h-20 w-full">
 				<div class="flex items-center justify-center gap-2">
-					<img
-						class="h-8 w-8"
-						src="assets/img/facebook.svg"
-						alt="Icona Facebook" />
-					<img
-						class="h-8 w-8"
-						src="assets/img/instagram.svg"
-						alt="Icona Instagram" />
+					<img class="h-8 w-8" src="assets/img/facebook.svg" alt="Icona Facebook" />
+					<img class="h-8 w-8" src="assets/img/instagram.svg" alt="Icona Instagram" />
 				</div>
-				<p class="text-center mt-1 text-white">
-					Copyright © 2023 - Francesca Mariotti - Tutti i diritti
-					riservati
+				<p class="mt-1 text-center text-white">
+					Copyright © 2023 - Francesca Mariotti - Tutti i diritti riservati
 				</p>
 			</div>
 			<svg
-				class="hidden fill-fmgreen-100 w-full h-40 xl:block"
+				class="hidden h-40 w-full fill-fmgreen-100 xl:block"
 				xmlns="http://www.w3.org/2000/svg"
 				preserveAspectRatio="none"
 				viewBox="0 0 1280 128">
@@ -315,7 +236,7 @@
 					d="m0 108 26.7-3.7c26.6-3.6 80-11 133.3-13.8 53.3-2.8 106.7-1.2 160 1.2 53.3 2.3 106.7 5.3 160 1.5 53.3-3.9 106.7-14.5 160-11.5s106.7 19.6 160 22.5c53.3 2.8 106.7-8.2 160-13.7s106.7-5.5 160-.8c53.3 4.6 106.7 14 133.3 18.6l26.7 4.7v16H0Z" />
 			</svg>
 			<svg
-				class="fill-fmgreen-100 w-full h-40 xl:hidden"
+				class="h-40 w-full fill-fmgreen-100 xl:hidden"
 				xmlns="http://www.w3.org/2000/svg"
 				preserveAspectRatio="none"
 				viewBox="0 0 769 200">
